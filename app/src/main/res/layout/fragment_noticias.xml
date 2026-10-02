@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_screen">
+
+    <!-- Encabezado IPN  -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/maroon_primary"
+        android:gravity="center_vertical"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="14dp">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/ipn_logo"
+            android:scaleType="fitCenter"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="12dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ipn_title"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ipn_subtitle"
+                android:textColor="@color/white"
+                android:textSize="12sp"/>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/bg_circle_avatar"
+            android:scaleType="centerCrop"
+            android:clipToOutline="true"
+            android:outlineProvider="background"
+            android:src="@drawable/perfil_ipn"/>
+    </LinearLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="24dp">
+
+            <!-- ultimas noticias -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:background="@drawable/bg_card_white"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ultimas_noticias"
+                    android:textColor="@color/text_primary"
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+
+                <LinearLayout android:id="@+id/news1" android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:layout_marginTop="14dp" android:orientation="horizontal" android:gravity="center_vertical"
+                    android:clickable="true" android:focusable="true" android:background="?attr/selectableItemBackground">
+                    <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"
+                        android:text="@string/noticia_1" android:textColor="@color/text_primary" android:textSize="14sp"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="10dp"
+                        android:text="1d" android:textColor="@color/text_hint" android:textSize="12sp"/>
+                </LinearLayout>
+
+                <LinearLayout android:id="@+id/news2" android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:layout_marginTop="14dp" android:orientation="horizontal" android:gravity="center_vertical"
+                    android:clickable="true" android:focusable="true" android:background="?attr/selectableItemBackground">
+                    <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"
+                        android:text="@string/noticia_2" android:textColor="@color/text_primary" android:textSize="14sp"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="10dp"
+                        android:text="16h" android:textColor="@color/text_hint" android:textSize="12sp"/>
+                </LinearLayout>
+
+                <LinearLayout android:id="@+id/news3" android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:layout_marginTop="14dp" android:orientation="horizontal" android:gravity="center_vertical"
+                    android:clickable="true" android:focusable="true" android:background="?attr/selectableItemBackground">
+                    <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"
+                        android:text="@string/noticia_3" android:textColor="@color/text_primary" android:textSize="14sp"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="10dp"
+                        android:text="1d" android:textColor="@color/text_hint" android:textSize="12sp"/>
+                </LinearLayout>
+
+                <LinearLayout android:id="@+id/news4" android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:layout_marginTop="14dp" android:orientation="horizontal" android:gravity="center_vertical"
+                    android:clickable="true" android:focusable="true" android:background="?attr/selectableItemBackground">
+                    <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"
+                        android:text="@string/noticia_4" android:textColor="@color/text_primary" android:textSize="14sp"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="10dp"
+                        android:text="6d" android:textColor="@color/text_hint" android:textSize="12sp"/>
+                </LinearLayout>
+
+                <LinearLayout android:id="@+id/news5" android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:layout_marginTop="14dp" android:orientation="horizontal" android:gravity="center_vertical"
+                    android:clickable="true" android:focusable="true" android:background="?attr/selectableItemBackground">
+                    <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"
+                        android:text="@string/noticia_5" android:textColor="@color/text_primary" android:textSize="14sp"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="10dp"
+                        android:text="1d" android:textColor="@color/text_hint" android:textSize="12sp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!-- Categorías  -->
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="16dp"
+                android:columnCount="2"
+                android:rowCount="3">
+
+                <LinearLayout android:id="@+id/catEventos" android:layout_width="0dp" android:layout_height="wrap_content"
+                    android:layout_columnWeight="1" android:layout_marginEnd="6dp" android:layout_marginBottom="12dp"
+                    android:background="@drawable/bg_card_white" android:clickable="true" android:focusable="true"
+                    android:orientation="vertical" android:padding="16dp">
+                    <ImageView android:layout_width="26dp" android:layout_height="26dp" android:src="@drawable/ic_group" app:tint="@color/maroon_primary"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp"
+                        android:text="@string/eventos" android:textColor="@color/text_primary" android:textSize="15sp" android:textStyle="bold"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp"
+                        android:text="@string/culturales" android:textColor="@color/text_secondary" android:textSize="12sp"/>
+                </LinearLayout>
+
+                <LinearLayout android:id="@+id/catDeportes" android:layout_width="0dp" android:layout_height="wrap_content"
+                    android:layout_columnWeight="1" android:layout_marginStart="6dp" android:layout_marginBottom="12dp"
+                    android:background="@drawable/bg_card_white" android:clickable="true" android:focusable="true"
+                    android:orientation="vertical" android:padding="16dp">
+                    <ImageView android:layout_width="26dp" android:layout_height="26dp" android:src="@drawable/ic_emoji_events" app:tint="@color/maroon_primary"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp"
+                        android:text="@string/deportes" android:textColor="@color/text_primary" android:textSize="15sp" android:textStyle="bold"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp"
+                        android:text="@string/torneos" android:textColor="@color/text_secondary" android:textSize="12sp"/>
+                </LinearLayout>
+
+                <LinearLayout android:id="@+id/catPulso" android:layout_width="0dp" android:layout_height="wrap_content"
+                    android:layout_columnWeight="1" android:layout_marginEnd="6dp" android:layout_marginBottom="12dp"
+                    android:background="@drawable/bg_card_white" android:clickable="true" android:focusable="true"
+                    android:orientation="vertical" android:padding="16dp">
+                    <ImageView android:layout_width="26dp" android:layout_height="26dp" android:src="@drawable/ic_favorite" app:tint="@color/maroon_primary"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp"
+                        android:text="@string/pulso" android:textColor="@color/text_primary" android:textSize="15sp" android:textStyle="bold"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp"
+                        android:text="@string/politecnico" android:textColor="@color/text_secondary" android:textSize="12sp"/>
+                </LinearLayout>
+
+                <LinearLayout android:id="@+id/catAcademia" android:layout_width="0dp" android:layout_height="wrap_content"
+                    android:layout_columnWeight="1" android:layout_marginStart="6dp" android:layout_marginBottom="12dp"
+                    android:background="@drawable/bg_card_white" android:clickable="true" android:focusable="true"
+                    android:orientation="vertical" android:padding="16dp">
+                    <ImageView android:layout_width="26dp" android:layout_height="26dp" android:src="@drawable/ic_school" app:tint="@color/maroon_primary"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp"
+                        android:text="@string/academia" android:textColor="@color/text_primary" android:textSize="15sp" android:textStyle="bold"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp"
+                        android:text="@string/academica" android:textColor="@color/text_secondary" android:textSize="12sp"/>
+                </LinearLayout>
+
+                <LinearLayout android:id="@+id/catCiencia" android:layout_width="0dp" android:layout_height="wrap_content"
+                    android:layout_columnWeight="1" android:layout_marginEnd="6dp"
+                    android:background="@drawable/bg_card_white" android:clickable="true" android:focusable="true"
+                    android:orientation="vertical" android:padding="16dp">
+                    <ImageView android:layout_width="26dp" android:layout_height="26dp" android:src="@drawable/ic_device_hub" app:tint="@color/maroon_primary"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp"
+                        android:text="@string/ciencia" android:textColor="@color/text_primary" android:textSize="15sp" android:textStyle="bold"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp"
+                        android:text="@string/ciencia_tecnologia" android:textColor="@color/text_secondary" android:textSize="12sp"/>
+                </LinearLayout>
+
+                <LinearLayout android:id="@+id/catRelaciones" android:layout_width="0dp" android:layout_height="wrap_content"
+                    android:layout_columnWeight="1" android:layout_marginStart="6dp"
+                    android:background="@drawable/bg_card_white" android:clickable="true" android:focusable="true"
+                    android:orientation="vertical" android:padding="16dp">
+                    <ImageView android:layout_width="26dp" android:layout_height="26dp" android:src="@drawable/ic_flag" app:tint="@color/maroon_primary"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp"
+                        android:text="@string/relaciones" android:textColor="@color/text_primary" android:textSize="15sp" android:textStyle="bold"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp"
+                        android:text="@string/internacionales" android:textColor="@color/text_secondary" android:textSize="12sp"/>
+                </LinearLayout>
+
+            </GridLayout>
+
+            <!-- Gaceta Politécnica -->
+            <TextView style="@style/SectionTitle" android:layout_marginTop="20dp" android:text="@string/gaceta_politecnica"/>
+
+            <LinearLayout
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:layout_marginTop="8dp" android:layout_marginHorizontal="16dp"
+                android:background="@drawable/bg_card_white" android:orientation="vertical">
+
+                <LinearLayout android:id="@+id/rowGacetaQuincenal" style="@style/FilaSimple">
+                    <ImageView android:layout_width="22dp" android:layout_height="22dp" android:src="@drawable/ic_description" app:tint="@color/maroon_primary"/>
+                    <TextView style="@style/FilaSimpleTexto" android:text="@string/gaceta_quincenal"/>
+                    <ImageView android:layout_width="20dp" android:layout_height="20dp" android:src="@drawable/ic_chevron_right" app:tint="@color/text_hint"/>
+                </LinearLayout>
+                <View style="@style/RowDivider"/>
+                <LinearLayout android:id="@+id/rowGacetaExtra" style="@style/FilaSimple">
+                    <ImageView android:layout_width="22dp" android:layout_height="22dp" android:src="@drawable/ic_description" app:tint="@color/maroon_primary"/>
+                    <TextView style="@style/FilaSimpleTexto" android:text="@string/gaceta_extraordinaria"/>
+                    <ImageView android:layout_width="20dp" android:layout_height="20dp" android:src="@drawable/ic_chevron_right" app:tint="@color/text_hint"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

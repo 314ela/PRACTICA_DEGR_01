@@ -1,0 +1,314 @@
+[
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-debug-32:\\drawable_ic_history.xml.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-main-34:\\drawable\\ic_history.xml"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-debug-32:\\drawable_ic_logout.xml.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-main-34:\\drawable\\ic_logout.xml"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-debug-32:\\drawable_ic_report_problem.xml.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-main-34:\\drawable\\ic_report_problem.xml"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-debug-32:\\drawable_ic_emoji_events.xml.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-main-34:\\drawable\\ic_emoji_events.xml"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-debug-32:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-main-34:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-debug-32:\\drawable_bg_gradient_red.xml.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-main-34:\\drawable\\bg_gradient_red.xml"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-debug-32:\\drawable_bg_button_black.xml.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-main-34:\\drawable\\bg_button_black.xml"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-debug-32:\\drawable_bg_card_white.xml.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-main-34:\\drawable\\bg_card_white.xml"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-debug-32:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-main-34:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-debug-32:\\drawable_ic_verified_user.xml.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-main-34:\\drawable\\ic_verified_user.xml"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-debug-32:\\drawable_bg_card_outline.xml.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-main-34:\\drawable\\bg_card_outline.xml"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-debug-32:\\layout_fragment_academico.xml.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-main-34:\\layout\\fragment_academico.xml"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-debug-32:\\layout_fragment_servicios.xml.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-main-34:\\layout\\fragment_servicios.xml"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-debug-32:\\drawable_ic_public.xml.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-main-34:\\drawable\\ic_public.xml"
+    },
+    {
+        "merged": "com.ipn.practicadegr01.app-debug-32:/drawable_ipn_logo.png.flat",
+        "source": "com.ipn.practicadegr01.app-main-34:/drawable/ipn_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-debug-32:\\drawable_ic_badge.xml.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-main-34:\\drawable\\ic_badge.xml"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-debug-32:\\drawable_bg_gradient_orange.xml.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-main-34:\\drawable\\bg_gradient_orange.xml"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-debug-32:\\drawable_bg_gradient_blue.xml.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-main-34:\\drawable\\bg_gradient_blue.xml"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-debug-32:\\drawable_ic_warning.xml.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-main-34:\\drawable\\ic_warning.xml"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-debug-32:\\drawable_ic_how_to_reg.xml.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-main-34:\\drawable\\ic_how_to_reg.xml"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-debug-32:\\drawable_ic_description.xml.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-main-34:\\drawable\\ic_description.xml"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-debug-32:\\drawable_ic_sentiment_satisfied.xml.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-main-34:\\drawable\\ic_sentiment_satisfied.xml"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-debug-32:\\drawable_bg_circle_icon_light.xml.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-main-34:\\drawable\\bg_circle_icon_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-debug-32:\\drawable_bg_button_green.xml.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-main-34:\\drawable\\bg_button_green.xml"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-debug-32:\\drawable_ic_radio.xml.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-main-34:\\drawable\\ic_radio.xml"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-debug-32:\\layout_item_carousel_slide.xml.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-main-34:\\layout\\item_carousel_slide.xml"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-debug-32:\\drawable_bg_gradient_purple.xml.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-main-34:\\drawable\\bg_gradient_purple.xml"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-debug-32:\\drawable_ic_local_hospital.xml.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-main-34:\\drawable\\ic_local_hospital.xml"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-debug-32:\\drawable_ic_tv.xml.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-main-34:\\drawable\\ic_tv.xml"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-debug-32:\\layout_fragment_noticias.xml.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-main-34:\\layout\\fragment_noticias.xml"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-debug-32:\\drawable_ic_help.xml.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-main-34:\\drawable\\ic_help.xml"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-debug-32:\\drawable_ic_security.xml.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-main-34:\\drawable\\ic_security.xml"
+    },
+    {
+        "merged": "com.ipn.practicadegr01.app-debug-32:/layout_fragment_noticias.xml.flat",
+        "source": "com.ipn.practicadegr01.app-main-34:/layout/fragment_noticias.xml"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-debug-32:\\drawable_bg_dot_active.xml.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-main-34:\\drawable\\bg_dot_active.xml"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-debug-32:\\drawable_ic_pan_tool.xml.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-main-34:\\drawable\\ic_pan_tool.xml"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-debug-32:\\drawable_ic_person.xml.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-main-34:\\drawable\\ic_person.xml"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-debug-32:\\drawable_ic_schedule.xml.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-main-34:\\drawable\\ic_schedule.xml"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-debug-32:\\color_bottom_nav_item_color.xml.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-main-34:\\color\\bottom_nav_item_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-debug-32:\\drawable_bg_dot_inactive.xml.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-main-34:\\drawable\\bg_dot_inactive.xml"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-debug-32:\\drawable_ic_article.xml.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-main-34:\\drawable\\ic_article.xml"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-debug-32:\\drawable_ic_group.xml.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-main-34:\\drawable\\ic_group.xml"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-debug-32:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-main-34:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-debug-32:\\drawable_ic_event.xml.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-main-34:\\drawable\\ic_event.xml"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-debug-32:\\layout_fragment_perfil.xml.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-main-34:\\layout\\fragment_perfil.xml"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-debug-32:\\drawable_bg_pill_white.xml.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-main-34:\\drawable\\bg_pill_white.xml"
+    },
+    {
+        "merged": "com.ipn.practicadegr01.app-debug-32:/drawable_perfil_ipn.png.flat",
+        "source": "com.ipn.practicadegr01.app-main-34:/drawable/perfil_ipn.png"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-debug-32:\\drawable_ic_flight.xml.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-main-34:\\drawable\\ic_flight.xml"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-debug-32:\\drawable_ic_phone_iphone.xml.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-main-34:\\drawable\\ic_phone_iphone.xml"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-debug-32:\\drawable_ic_attach_money.xml.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-main-34:\\drawable\\ic_attach_money.xml"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-debug-32:\\drawable_bg_progress_track.xml.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-main-34:\\drawable\\bg_progress_track.xml"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-debug-32:\\drawable_ic_home.xml.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-main-34:\\drawable\\ic_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-debug-32:\\drawable_ic_shopping_bag.xml.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-main-34:\\drawable\\ic_shopping_bag.xml"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-debug-32:\\drawable_bg_logo_badge.xml.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-main-34:\\drawable\\bg_logo_badge.xml"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-debug-32:\\drawable_bg_gradient_progress.xml.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-main-34:\\drawable\\bg_gradient_progress.xml"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-debug-32:\\drawable_ic_chevron_right.xml.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-main-34:\\drawable\\ic_chevron_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-debug-32:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-main-34:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-debug-32:\\drawable_ic_flag.xml.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-main-34:\\drawable\\ic_flag.xml"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-debug-32:\\layout_fragment_home.xml.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-main-34:\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-debug-32:\\drawable_ic_favorite.xml.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-main-34:\\drawable\\ic_favorite.xml"
+    },
+    {
+        "merged": "com.ipn.practicadegr01.app-debug-32:/layout_fragment_academico.xml.flat",
+        "source": "com.ipn.practicadegr01.app-main-34:/layout/fragment_academico.xml"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-debug-32:\\drawable_ic_mail.xml.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-main-34:\\drawable\\ic_mail.xml"
+    },
+    {
+        "merged": "com.ipn.practicadegr01.app-debug-32:/layout_fragment_perfil.xml.flat",
+        "source": "com.ipn.practicadegr01.app-main-34:/layout/fragment_perfil.xml"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-debug-32:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-main-34:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-debug-32:\\drawable_bg_progress_fill.xml.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-main-34:\\drawable\\bg_progress_fill.xml"
+    },
+    {
+        "merged": "com.ipn.practicadegr01.app-debug-32:/layout_fragment_servicios.xml.flat",
+        "source": "com.ipn.practicadegr01.app-main-34:/layout/fragment_servicios.xml"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-debug-32:\\drawable_ic_school.xml.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-main-34:\\drawable\\ic_school.xml"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-debug-32:\\drawable_bg_banner_carousel_1.xml.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-main-34:\\drawable\\bg_banner_carousel_1.xml"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-debug-32:\\drawable_ic_assignment.xml.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-main-34:\\drawable\\ic_assignment.xml"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-debug-32:\\drawable_bg_circle_avatar.xml.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-main-34:\\drawable\\bg_circle_avatar.xml"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-debug-32:\\drawable_ic_directions_bus.xml.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-main-34:\\drawable\\ic_directions_bus.xml"
+    },
+    {
+        "merged": "com.ipn.practicadegr01.app-debug-32:/layout_fragment_home.xml.flat",
+        "source": "com.ipn.practicadegr01.app-main-34:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-debug-32:\\drawable_ic_notifications.xml.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-main-34:\\drawable\\ic_notifications.xml"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-debug-32:\\drawable_bg_gradient_header.xml.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-main-34:\\drawable\\bg_gradient_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-debug-32:\\drawable_ic_device_hub.xml.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-main-34:\\drawable\\ic_device_hub.xml"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-debug-32:\\drawable_ic_theaters.xml.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-main-34:\\drawable\\ic_theaters.xml"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-debug-32:\\drawable_bg_button_outline_purple.xml.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-main-34:\\drawable\\bg_button_outline_purple.xml"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-debug-32:\\menu_bottom_nav_menu.xml.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-main-34:\\menu\\bottom_nav_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-debug-32:\\drawable_bg_banner_aerolinea.xml.flat",
+        "source": "C:\\Users\\gutie\\.gradle\\daemon\\8.7\\com.ipn.practicadegr01.app-main-34:\\drawable\\bg_banner_aerolinea.xml"
+    }
+]

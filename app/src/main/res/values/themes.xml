@@ -1,0 +1,9 @@
+<resources>
+    <style name="Theme.PracticaDegr01" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/maroon_primary</item>
+        <item name="colorPrimaryDark">@color/maroon_dark</item>
+        <item name="colorAccent">@color/purple_accent</item>
+        <item name="android:statusBarColor">@color/maroon_dark</item>
+        <item name="android:windowBackground">@color/bg_screen</item>
+    </style>
+</resources>

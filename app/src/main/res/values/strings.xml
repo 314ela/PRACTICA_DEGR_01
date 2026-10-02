@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PRACTICA_DEGR_01</string>
+    <string name="ipn_title">IPN</string>
+    <string name="ipn_subtitle">Instituto Politécnico Nacional</string>
+
+    <!-- Botones para la navegacion -->
+    <string name="nav_home">Home</string>
+    <string name="nav_noticias">Noticias</string>
+    <string name="nav_servicios">Servicios</string>
+    <string name="nav_academico">Académico</string>
+    <string name="nav_perfil">Perfil</string>
+
+    <!-- Casita -->
+    <string name="banner_titulo">Desarrolla ESIME alerta para prevención de incendios en CDMX</string>
+    <string name="aerolinea_titulo">Aerolínea Mexicana</string>
+    <string name="aerolinea_desc">Descuento del 20% en boletos de avión en rutas directas de Mexicana.</string>
+    <string name="ver_beneficio">Ver beneficio</string>
+    <string name="acceso_rapido">Acceso Rápido</string>
+    <string name="credencial">Credencial</string>
+    <string name="credencial_escolar">Credencial Escolar</string>
+    <string name="radio_ipn">Radio IPN</string>
+    <string name="transmision_vivo">Transmisión en vivo</string>
+    <string name="mi_horario">Mi Horario</string>
+    <string name="semestre">Semestre</string>
+    <string name="emergencias">Emergencias</string>
+    <string name="boton_panico">Botón Pánico</string>
+    <string name="boton_panico_completo">Botón de Pánico</string>
+    <string name="cultura">Cultura</string>
+    <string name="eventos">Eventos</string>
+    <string name="eventos_desc">Consulta eventos culturales y académicos</string>
+    <string name="noticias">Noticias</string>
+    <string name="noticias_desc">Últimas noticias del IPN</string>
+    <string name="gaceta">Gaceta</string>
+    <string name="gaceta_desc">Publicaciones oficiales institucionales</string>
+    <string name="cartelera">Cartelera</string>
+    <string name="cartelera_desc">Cartelera cultural del IPN</string>
+    <string name="servicios">Servicios</string>
+    <string name="denuncia_segura">Denuncia segura</string>
+    <string name="denuncia_segura_desc">Sistema de denuncias anónimas</string>
+
+    <!-- Noticias -->
+    <string name="ultimas_noticias">Últimas Noticias</string>
+    <string name="noticia_1">Desarrolla ESIME alerta para prevención de incendios en CDMX</string>
+    <string name="noticia_2">Realizan TURINNOVA en UPIIP; anuncian edición internacional</string>
+    <string name="noticia_3">Exploran en UPIEM futuro de IA en energía y movilidad</string>
+    <string name="noticia_4">Inauguran muestra por 85 años de teatro en el IPN</string>
+    <string name="noticia_5">Impulsa IPN talento juvenil en oratoria</string>
+    <string name="deportes">Deportes</string>
+    <string name="torneos">Torneos</string>
+    <string name="culturales">Culturales</string>
+    <string name="pulso">Pulso</string>
+    <string name="politecnico">Politécnico</string>
+    <string name="academia">Academia</string>
+    <string name="academica">Académica</string>
+    <string name="ciencia">Ciencia</string>
+    <string name="ciencia_tecnologia">&amp; Tecnología</string>
+    <string name="relaciones">Relaciones</string>
+    <string name="internacionales">Internacionales</string>
+    <string name="gaceta_politecnica">Gaceta Politécnica</string>
+    <string name="gaceta_quincenal">Gaceta Quincenal</string>
+    <string name="gaceta_extraordinaria">Gaceta Extraordinaria</string>
+
+    <!-- Servicios -->
+    <string name="tramites_gestion">Trámites y Gestión</string>
+    <string name="registro_examen">Registro Examen</string>
+    <string name="reinscripcion">Reinscripción</string>
+    <string name="becas">Becas</string>
+    <string name="salud_bienestar">Salud y Bienestar</string>
+    <string name="registra_nss">Registra tu NSS</string>
+    <string name="afiliacion_imss">Afiliación al IMSS</string>
+    <string name="cedula_prevenimss">Cédula PrevenIMSS</string>
+    <string name="seguros_vida">Seguros de Vida y Accidentes</string>
+    <string name="beneficios_externos">Beneficios Externos</string>
+    <string name="informacion_general">Información General</string>
+    <string name="calendario_escolar">Calendario Escolar</string>
+    <string name="beneficios">Beneficios</string>
+    <string name="sendero_seguro">Sendero Seguro</string>
+    <string name="medios_comunicacion">Medios y Comunicación</string>
+    <string name="canal_once">Canal Once</string>
+    <string name="gaceta_politecnica_min">Gaceta politécnica</string>
+    <string name="seguridad">Seguridad</string>
+    <string name="numeros_emergencia">Números de Emergencia</string>
+    <string name="denuncia_segura_titulo">Denuncia Segura</string>
+
+    <!-- Academico -->
+    <string name="mi_progreso_academico">Mi Progreso Académico</string>
+    <string name="carrera_ejemplo">ING. EN SIS. COMPUTACIONALES</string>
+    <string name="unidad_ejemplo">UNIDAD PROFESIONAL INTERDISCIPLINARIA DE INGENIERIA CAMPUS ZACATECAS</string>
+    <string name="porcentaje_ejemplo">65.12%</string>
+    <string name="semestre_6">Semestre 6</string>
+    <string name="creditos_completados">Créditos completados</string>
+    <string name="activo">Activo</string>
+    <string name="click_tarjeta">Click en la tarjeta para ver más información</string>
+    <string name="acceso_academico">Acceso Académico</string>
+    <string name="historial">Historial</string>
+    <string name="historial_academico">Académico</string>
+    <string name="horario">Horario</string>
+    <string name="credencial_titulo">Credencial</string>
+    <string name="escolar">Escolar</string>
+    <string name="notificaciones">Notificaciones</string>
+    <string name="ver_historial">Ver historial</string>
+    <string name="calendarios_escolares">Calendarios Escolares</string>
+    <string name="modalidad_escolarizada">Modalidad Escolarizada</string>
+    <string name="modalidad_no_escolarizada">Modalidad No Escolarizada</string>
+    <string name="calendario_2025">Calendario académico 2025</string>
+
+    <!-- Perfil -->
+    <string name="mi_cuenta">Mi Cuenta</string>
+    <string name="nombre_usuario">Donna Elaine Gutierrez Reyes</string>
+    <string name="finalizar_sesion">Finalizar sesión actual</string>
+    <string name="cerrar_sesion">CERRAR SESIÓN</string>
+    <string name="notificaciones_titulo">Notificaciones</string>
+    <string name="ver_historial_notificaciones">Ver historial de notificaciones</string>
+    <string name="necesitas_ayuda">¿Necesitas Ayuda?</string>
+    <string name="problemas_acceso">¿Problemas de acceso?</string>
+    <string name="problemas_acceso_desc">Solicita ayuda sobre tu cuenta</string>
+    <string name="problemas_app">¿Problemas con la aplicación?</string>
+    <string name="problemas_app_desc">Envía un correo electrónico a soporte.dsi@ipn.mx</string>
+    <string name="comparte_app">Comparte la App</string>
+    <string name="comparte_app_desc">Envía un vínculo de descarga a tus conocidos para que comiencen a utilizar los servicios del App IPN Oficial</string>
+    <string name="app_store">App Store</string>
+    <string name="google_play">Google Play</string>
+    <string name="version_app">Versión 2.1.4.78</string>
+
+    <!-- Para cuando de clic vea un mensaje de proximamente -->
+    <string name="proximamente">Próximamente</string>
+</resources>

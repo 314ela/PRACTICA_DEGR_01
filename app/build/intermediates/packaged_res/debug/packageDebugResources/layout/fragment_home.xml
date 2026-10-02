@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_screen">
+
+    <!--  Encabezado IPN  -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/maroon_primary"
+        android:gravity="center_vertical"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="14dp">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/ipn_logo"
+            android:scaleType="fitCenter"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="12dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ipn_title"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ipn_subtitle"
+                android:textColor="@color/white"
+                android:textSize="12sp"/>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/bg_circle_avatar"
+            android:scaleType="centerCrop"
+            android:clipToOutline="true"
+            android:outlineProvider="background"
+            android:src="@drawable/perfil_ipn"/>
+    </LinearLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="24dp">
+
+            <!-- Carrusel de imágenes -->
+            <androidx.viewpager2.widget.ViewPager2
+                android:id="@+id/vpCarousel"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginHorizontal="16dp"/>
+
+            <LinearLayout
+                android:id="@+id/dotsContainer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal"
+                android:gravity="center"/>
+
+            <!-- Banner Aerolínea Mexicana  -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginHorizontal="16dp"
+                android:orientation="vertical"
+                android:background="@drawable/bg_banner_aerolinea"
+                android:padding="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
+
+                    <ImageView
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"
+                        android:src="@drawable/ic_flight"
+                        app:tint="@color/white"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:text="@string/aerolinea_titulo"
+                        android:textColor="@color/white"
+                        android:textSize="16sp"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:text="@string/aerolinea_desc"
+                    android:textColor="#EDE7F6"
+                    android:textSize="13sp"/>
+
+                <TextView
+                    android:id="@+id/btnVerBeneficio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:background="@drawable/bg_pill_white"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:paddingHorizontal="18dp"
+                    android:paddingVertical="8dp"
+                    android:text="@string/ver_beneficio"
+                    android:textColor="@color/maroon_primary"
+                    android:textSize="13sp"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+            <!-- Acceso Rápido -->
+            <TextView style="@style/SectionTitle" android:layout_marginTop="24dp" android:text="@string/acceso_rapido"/>
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginHorizontal="16dp"
+                android:columnCount="2"
+                android:rowCount="2">
+
+                <LinearLayout
+                    android:id="@+id/cardCredencial"
+                    android:layout_width="0dp" android:layout_height="wrap_content"
+                    android:layout_columnWeight="1" android:layout_marginEnd="6dp" android:layout_marginBottom="12dp"
+                    android:background="@drawable/bg_gradient_blue"
+                    android:clickable="true" android:focusable="true"
+                    android:orientation="vertical" android:padding="14dp">
+                    <ImageView android:layout_width="26dp" android:layout_height="26dp"
+                        android:src="@drawable/ic_badge" app:tint="@color/white"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:layout_marginTop="22dp" android:text="@string/credencial"
+                        android:textColor="@color/white" android:textSize="16sp" android:textStyle="bold"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp" android:text="@string/credencial_escolar"
+                        android:textColor="#E8E8E8" android:textSize="12sp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/cardRadio"
+                    android:layout_width="0dp" android:layout_height="wrap_content"
+                    android:layout_columnWeight="1" android:layout_marginStart="6dp" android:layout_marginBottom="12dp"
+                    android:background="@drawable/bg_gradient_purple"
+                    android:clickable="true" android:focusable="true"
+                    android:orientation="vertical" android:padding="14dp">
+                    <ImageView android:layout_width="26dp" android:layout_height="26dp"
+                        android:src="@drawable/ic_radio" app:tint="@color/white"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:layout_marginTop="22dp" android:text="@string/radio_ipn"
+                        android:textColor="@color/white" android:textSize="16sp" android:textStyle="bold"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp" android:text="@string/transmision_vivo"
+                        android:textColor="#E8E8E8" android:textSize="12sp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/cardHorario"
+                    android:layout_width="0dp" android:layout_height="wrap_content"
+                    android:layout_columnWeight="1" android:layout_marginEnd="6dp"
+                    android:background="@drawable/bg_gradient_orange"
+                    android:clickable="true" android:focusable="true"
+                    android:orientation="vertical" android:padding="14dp">
+                    <ImageView android:layout_width="26dp" android:layout_height="26dp"
+                        android:src="@drawable/ic_schedule" app:tint="@color/white"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:layout_marginTop="22dp" android:text="@string/mi_horario"
+                        android:textColor="@color/white" android:textSize="16sp" android:textStyle="bold"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp" android:text="@string/semestre"
+                        android:textColor="#E8E8E8" android:textSize="12sp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/cardEmergencias"
+                    android:layout_width="0dp" android:layout_height="wrap_content"
+                    android:layout_columnWeight="1" android:layout_marginStart="6dp"
+                    android:background="@drawable/bg_gradient_red"
+                    android:clickable="true" android:focusable="true"
+                    android:orientation="vertical" android:padding="14dp">
+                    <ImageView android:layout_width="26dp" android:layout_height="26dp"
+                        android:src="@drawable/ic_warning" app:tint="@color/white"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:layout_marginTop="22dp" android:text="@string/emergencias"
+                        android:textColor="@color/white" android:textSize="16sp" android:textStyle="bold"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp" android:text="@string/boton_panico"
+                        android:textColor="#E8E8E8" android:textSize="12sp"/>
+                </LinearLayout>
+
+            </GridLayout>
+
+            <!-- Cultura -->
+            <TextView style="@style/SectionTitle" android:layout_marginTop="24dp" android:text="@string/cultura"/>
+
+            <LinearLayout
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:layout_marginTop="8dp" android:layout_marginHorizontal="16dp"
+                android:background="@drawable/bg_card_white" android:orientation="vertical">
+
+                <LinearLayout android:id="@+id/rowEventos" style="@style/FilaConIcono">
+                    <ImageView android:layout_width="24dp" android:layout_height="24dp"
+                        android:src="@drawable/ic_group" app:tint="@color/maroon_primary"/>
+                    <LinearLayout style="@style/FilaTextos">
+                        <TextView style="@style/FilaTitulo" android:text="@string/eventos"/>
+                        <TextView style="@style/FilaSubtitulo" android:text="@string/eventos_desc"/>
+                    </LinearLayout>
+                    <ImageView android:layout_width="20dp" android:layout_height="20dp"
+                        android:src="@drawable/ic_chevron_right" app:tint="@color/text_hint"/>
+                </LinearLayout>
+                <View style="@style/RowDivider"/>
+
+                <LinearLayout android:id="@+id/rowNoticiasHome" style="@style/FilaConIcono">
+                    <ImageView android:layout_width="24dp" android:layout_height="24dp"
+                        android:src="@drawable/ic_article" app:tint="@color/maroon_primary"/>
+                    <LinearLayout style="@style/FilaTextos">
+                        <TextView style="@style/FilaTitulo" android:text="@string/noticias"/>
+                        <TextView style="@style/FilaSubtitulo" android:text="@string/noticias_desc"/>
+                    </LinearLayout>
+                    <ImageView android:layout_width="20dp" android:layout_height="20dp"
+                        android:src="@drawable/ic_chevron_right" app:tint="@color/text_hint"/>
+                </LinearLayout>
+                <View style="@style/RowDivider"/>
+
+                <LinearLayout android:id="@+id/rowGaceta" style="@style/FilaConIcono">
+                    <ImageView android:layout_width="24dp" android:layout_height="24dp"
+                        android:src="@drawable/ic_description" app:tint="@color/maroon_primary"/>
+                    <LinearLayout style="@style/FilaTextos">
+                        <TextView style="@style/FilaTitulo" android:text="@string/gaceta"/>
+                        <TextView style="@style/FilaSubtitulo" android:text="@string/gaceta_desc"/>
+                    </LinearLayout>
+                    <ImageView android:layout_width="20dp" android:layout_height="20dp"
+                        android:src="@drawable/ic_chevron_right" app:tint="@color/text_hint"/>
+                </LinearLayout>
+                <View style="@style/RowDivider"/>
+
+                <LinearLayout android:id="@+id/rowCartelera" style="@style/FilaConIcono">
+                    <ImageView android:layout_width="24dp" android:layout_height="24dp"
+                        android:src="@drawable/ic_theaters" app:tint="@color/maroon_primary"/>
+                    <LinearLayout style="@style/FilaTextos">
+                        <TextView style="@style/FilaTitulo" android:text="@string/cartelera"/>
+                        <TextView style="@style/FilaSubtitulo" android:text="@string/cartelera_desc"/>
+                    </LinearLayout>
+                    <ImageView android:layout_width="20dp" android:layout_height="20dp"
+                        android:src="@drawable/ic_chevron_right" app:tint="@color/text_hint"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!-- Servicios  -->
+            <TextView style="@style/SectionTitle" android:layout_marginTop="24dp" android:text="@string/servicios"/>
+
+            <LinearLayout
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:layout_marginTop="8dp" android:layout_marginHorizontal="16dp"
+                android:background="@drawable/bg_card_white" android:orientation="vertical">
+
+                <LinearLayout android:id="@+id/rowDenuncia" style="@style/FilaConIcono">
+                    <ImageView android:layout_width="24dp" android:layout_height="24dp"
+                        android:src="@drawable/ic_report_problem" app:tint="@color/maroon_primary"/>
+                    <LinearLayout style="@style/FilaTextos">
+                        <TextView style="@style/FilaTitulo" android:text="@string/denuncia_segura"/>
+                        <TextView style="@style/FilaSubtitulo" android:text="@string/denuncia_segura_desc"/>
+                    </LinearLayout>
+                    <ImageView android:layout_width="20dp" android:layout_height="20dp"
+                        android:src="@drawable/ic_chevron_right" app:tint="@color/text_hint"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

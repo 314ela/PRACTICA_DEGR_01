@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Colores institucionales IPN  -->
+    <color name="maroon_primary">#7A1E42</color>
+    <color name="maroon_dark">#531030</color>
+    <color name="purple_accent">#6250D6</color>
+
+    <!-- Colores de tarjetas -->
+    <color name="card_blue">#3A7D8C</color>
+    <color name="card_orange">#D97B3F</color>
+    <color name="card_purple">#7558B8</color>
+    <color name="card_red">#B8465E</color>
+
+    <color name="text_primary">#1A1A1A</color>
+    <color name="text_secondary">#757575</color>
+    <color name="text_hint">#9E9E9E</color>
+    <color name="bg_screen">#F2F2F2</color>
+    <color name="card_white">#FFFFFFFF</color>
+    <color name="divider">#E0E0E0</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="icon_dark">#424242</color>
+</resources>
